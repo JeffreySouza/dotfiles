@@ -1,0 +1,16 @@
+Description='University of Utah UConnect'
+Interface=wlp2s0
+Connection=wireless
+Security=wpa-configsection
+IP=dhcp
+IP6=stateless
+WPAConfigSection=(
+	'ssid="UConnect"'
+	'key_mgmt=WPA-EAP'
+	'eap=PEAP'
+	'anonymous_identity="anonymous"'
+	'identity="u0402450"'
+	'password="****"'
+	'phase2="auth=MSCHAPV2"'
+	'ca_cert="/etc/ssl/certs/AddTrust_External_Root.pem"'
+)
