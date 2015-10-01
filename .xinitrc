@@ -9,8 +9,6 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 
 if [ -f $sysresources ]; then
 
-
-
     xrdb -merge $sysresources
 
 fi
@@ -20,6 +18,9 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
+
+
+
 
 
 
@@ -41,15 +42,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-#twm &
-#xclock -geometry 50x50-1+1 &
-#xterm -geometry 80x50+494+51 &
-#xterm -geometry 80x20+494-0 &
-#exec xterm -geometry 80x66+0+0 -name login
-
-#set desktop background to last known feh bg
-sh ~/.fehbg &
-
 setxkbmap -option caps:escape
 
+xrdb ~/.Xresources &
 exec i3

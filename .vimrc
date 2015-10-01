@@ -1,4 +1,3 @@
-colorscheme gruvbox
 syntax enable
 
 set encoding=utf-8
@@ -18,4 +17,3 @@ nnoremap <space> :nohlsearch<CR> 	" maps clear search to spacebar
 
 nnoremap j gj
 nnoremap k gk
-
