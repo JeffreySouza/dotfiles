@@ -13,6 +13,9 @@ set showmatch		" highlight matching [{()}]
 set incsearch		" search as characters are entered
 set hlsearch		" highlight matches
 
+set noerrorbells
+set vb t_vb=
+
 nnoremap <space> :nohlsearch<CR> 	" maps clear search to spacebar
 
 nnoremap j gj
