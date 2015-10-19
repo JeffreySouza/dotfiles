@@ -44,5 +44,7 @@ fi
 
 setxkbmap -option caps:escape
 
+sh ~.fshbg &
+
 xrdb ~/.Xresources &
 exec i3
