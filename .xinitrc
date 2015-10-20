@@ -35,6 +35,8 @@ fi
 
 # start some nice programs
 
+/bin/sh /home/jeffrey/.fehbg &
+
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
   [ -x "$f" ] && . "$f"
@@ -44,7 +46,6 @@ fi
 
 setxkbmap -option caps:escape
 
-sh ~.fshbg &
-
 xrdb ~/.Xresources &
 exec i3
+
