@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'morhetz/gruvbox'
+Plugin 'mileszs/ack.vim'
 
 " load plugins with Vundle
 " Plugin 'plugin-name'
@@ -62,4 +63,8 @@ nnoremap j gj
 nnoremap k gk
 
 autocmd BufWritePre * %s/\s\+$//e " Remove all trailing white space every time you :w
+
+" Make the whitespace characters more visible!
+set listchars=eol:$,tab:→\ ,trail:·
+set list
 
