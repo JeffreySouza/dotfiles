@@ -55,7 +55,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 # User configuration
 
@@ -94,3 +94,9 @@ alias qq="exit"
 alias letsgo="cd ~/Code/"
 alias cl="clear"
 alias cd..="cd .."
+
+foreground-vim() {
+	fg %vim
+}
+zle -N foreground-vim
+bindkey '^Z' foreground-vim
