@@ -20,7 +20,7 @@
 
 ### fonts ###
 
-* [source code pro](https://github.com/adobe-fonts/source-code-pro)
+* [source code pro](https://github.com/adobe-fonts/source-code-pro): 10
 
 ### cli ###
 
