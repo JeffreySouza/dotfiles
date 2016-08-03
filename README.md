@@ -1,8 +1,8 @@
-# dotfiles
+# dotfiles #
 
-## apps
+## apps ##
 
-  ### core
+  ### core ###
 
     * xorg
 
@@ -18,11 +18,11 @@
 
     * chromium
 
-  ### fonts
+  ### fonts ###
 
     * cousine
 
-  ### cli
+  ### cli ###
 
     * htop
 
@@ -30,13 +30,13 @@
 
     * screenfetch
 
-  ### fun
+  ### fun ###
 
     * asciiquarium
 
     * sl
 
-## vim plugins
+## vim plugins ##
 
 * Pathogen plugin manager
 
