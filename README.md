@@ -1,56 +1,56 @@
 # dotfiles
 
-##apps
+## apps
 
-  ###core
+  ### core
 
-    *xorg
+    * xorg
 
-    *i3
+    * i3
 
-    *urxvt
+    * urxvt
 
-    *feh
+    * feh
 
-    *vim
+    * vim
 
-    *firefox
+    * firefox
 
-    *chromium
+    * chromium
 
-  ###fonts
+  ### fonts
 
-    *cousine
+    * cousine
 
-  ###cli
+  ### cli
 
-    *htop
+    * htop
 
-    *ranger
+    * ranger
 
-    *screenfetch
+    * screenfetch
 
-  ###fun
+  ### fun
 
-    *asciiquarium
+    * asciiquarium
 
-    *sl
+    * sl
 
-##vim plugins
+## vim plugins
 
-*Pathogen plugin manager
+* Pathogen plugin manager
 
-*vim-vinegar
+* vim-vinegar
 
-*vim-surround
+* vim-surround
 
-*vim-fugitive
+* vim-fugitive
 
-*commentary
+* commentary
 
-*vim-repeat
+* vim-repeat
 
-*vim-abolish
+* vim-abolish
 
-*vim-sleuth
+* vim-sleuth
 
