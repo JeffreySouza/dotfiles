@@ -1,26 +1,5 @@
-" Vundle stuff ------------------------------------------
-
-set nocompatible	" be iMproved, required
-filetype off
-
-" set runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'morhetz/gruvbox'
-Plugin 'mileszs/ack.vim'
-
-" load plugins with Vundle
-" Plugin 'plugin-name'
-
-" end vundle
-call vundle#end()
-filetype plugin indent on
-
-" end Vundle stuff --------------------------------------
+" Pathogen stuff
+execute pathogen#infect()
 
 " YouCompleteMe suff --------------------------------------
 
@@ -53,9 +32,6 @@ set hlsearch        " highlight matches
 
 set noerrorbells    " get rid of dinging
 set vb t_vb=
-
-set tabstop=4	    " get rid of huge tabs
-set shiftwidth=4	" set > to tab 4 spaces
 
 " Visual linewise up and down by default (and use gj gk to go quicker)
 nnoremap j gj
