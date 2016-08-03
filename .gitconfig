@@ -1,3 +1,9 @@
 [user]
 	email = jeffreymsouza@gmail.com
-	name = Jeff Souza
+	name = jeff souza
+[color]
+	ui = auto
+[push]
+	default = simple
+[core]
+	editor = vim
