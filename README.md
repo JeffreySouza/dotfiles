@@ -54,3 +54,6 @@
 
 * [vim-sleuth](https://github.com/tpope/vim-sleuth), automatic tab space adjustment everything
 
+* [ack-vim](https://github.com/mileszs/ack.vim)
+
+* [gruvbox](https://github.com/morhetz/gruvbox), best colorscheme
