@@ -38,19 +38,19 @@
 
 ## vim plugins ##
 
-* Pathogen plugin manager
+* {Pathogen plugin manager}(https://github.com/tpope/vim-pathogen)
 
-* vim-vinegar
+* {vim-vinegar}(https://github.com/tpope/vim-vinegar): press -
 
-* vim-surround
+* {vim-surround}(https://github.com/tpope/vim-surround): {doc}(https://github.com/tpope/vim-surround/blob/master/doc/surround.txt)
 
-* vim-fugitive
+* {vim-fugitive}(https://github.com/tpope/vim-fugitive): git stuff
 
-* commentary
+* {vim-commentary}(https://github.com/tpope/vim-commentary), gcc comment line, gcgc uncomment
 
-* vim-repeat
+* {vim-repeat}(https://github.com/tpope/vim-repeat), fix .
 
-* vim-abolish
+* {vim-abolish}(https://github.com/tpope/vim-abolish), {doc}(https://github.com/tpope/vim-abolish/blob/master/doc/abolish.txt)
 
-* vim-sleuth
+* {vim-sleuth}(https://github.com/tpope/vim-sleuth), automatic tab space adjustment everything
 
