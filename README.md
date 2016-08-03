@@ -2,39 +2,39 @@
 
 ## apps ##
 
-  ### core ###
+### core ###
 
-    * xorg
+* xorg
 
-    * i3
+* i3
 
-    * urxvt
+* urxvt
 
-    * feh
+* feh
 
-    * vim
+* vim
 
-    * firefox
+* firefox
 
-    * chromium
+* chromium
 
-  ### fonts ###
+### fonts ###
 
-    * cousine
+* cousine
 
-  ### cli ###
+### cli ###
 
-    * htop
+* htop
 
-    * ranger
+* ranger
 
-    * screenfetch
+* screenfetch
 
-  ### fun ###
+### fun ###
 
-    * asciiquarium
+* asciiquarium
 
-    * sl
+* sl
 
 ## vim plugins ##
 
