@@ -73,9 +73,13 @@ nnoremap <space> :nohlsearch<CR>    " maps clear search to spacebar
 nnoremap j gj
 nnoremap k gk
 
-autocmd BufWritePre * %s/\s\+$//e " Remove all trailing white space every time you :w
+" Remove all trailing white space every time you :w
+autocmd BufWritePre * %s/\s\+$//e
 
 " Make the whitespace characters more visible!
 set listchars=eol:$,tab:→\ ,trail:·
 set list
 
+set cc=80 " visual marker to help enforce 79 char lim
+
+set tabstop=4 " tabs that are 8 spaces make me cry
