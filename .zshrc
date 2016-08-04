@@ -94,7 +94,9 @@ alias qq="exit"
 alias letsgo="cd ~/Code/"
 alias cl="clear"
 alias cd..="cd .."
+alias :q="exit"
 
+# ctrl z from zsh to go back to vim
 foreground-vim() {
 	fg %vim
 }
