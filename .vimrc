@@ -77,7 +77,7 @@ nnoremap k gk
 autocmd BufWritePre * %s/\s\+$//e
 
 " Make the whitespace characters more visible!
-set listchars=eol:$,tab:→\ ,trail:·
+set listchars=eol:¬,tab:→\ ,trail:·
 set list
 
 set cc=80 " visual marker to help enforce 79 char lim
